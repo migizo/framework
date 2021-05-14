@@ -1,0 +1,19 @@
+[package]
+name = "framework"
+version = "0.1.0"
+authors = ["asanoshohei <asanoshohei@team-lab.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cgmath = "0.17.0"
+gl = "0.14.0"
+sdl2 = "0.34.2"
+image = "0.22.3"
+c_str_macro = "1.0.2"
+orbtk = "0.3.1-alpha2"
+rodio = "0.11.0"
+cpal = "0.12.1"
+anyhow = "1.0.12" #for cpal
+midir = "0.6.2"
